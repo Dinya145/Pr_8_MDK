@@ -283,8 +283,10 @@ body {
 
 .ir div{
     background-color: #E2ECE6;
-    width: 800px;
-    height: 100px;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100px;
+    height: auto;
     padding: 30px;
     border-radius: 10px;
     align-items: center;
